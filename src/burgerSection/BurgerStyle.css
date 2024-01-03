@@ -1,0 +1,55 @@
+.burgerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 90vh;
+}
+
+.upperBun {
+    display:inherit;
+    flex-direction:inherit;
+    align-items:inherit;
+    justify-content:inherit;
+    height: 3cm;
+    width: 14cm;
+    margin-top: 2cm;
+}
+
+.lowerBun {
+    display:inherit;
+    flex-direction:inherit;
+    align-items:inherit;
+    justify-content:inherit;
+    height: 2cm;
+    width: 14cm;
+}
+
+.bun-image {
+    height: inherit;
+    width: inherit;
+    
+}
+
+
+
+
+.image {
+    height: 1cm;
+    width: 12cm;
+    margin: 0cm;;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+}
+
+.i-sub {
+    display: inherit;
+    flex-direction: inherit;
+}
+.i-i-sub {
+    display: inherit;
+    flex-direction: inherit;
+}

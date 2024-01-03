@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Nagivation Bar - Container */
+.nav {
+    background-color: #683f1c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+
+/* Nagigation Bar - logo */
+.nav img {
+    height: 1.3cm;
+    width: 1.7cm;
+    border-radius: 10%;
+    padding: 0.3cm;
+    background-color: white;
+    margin: 0.15cm;
+    
+}
+
+
+/* Navigation Bar - Buttons */
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    
+}
+
+li .navbarBtn {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0.5cm 0.2cm 0.37cm 0.2cm;
+}
+
+.nav .navbarBtn {
+    color: inherit;
+}
+ 
+.navbarBtn.active {
+    background-color: #865e37;
+    border-bottom: 5px solid #5ca0c2;
+}
+
+.navbarBtn:hover {
+    background-color: #865e37;
+    border-bottom: 5px solid #5ca0c2;
+}
+
+.routerLinks {
+    display: flex;
+    align-items: stretch;
+}

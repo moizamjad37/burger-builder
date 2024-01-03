@@ -1,0 +1,154 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 13cm;
+    height: 7cm;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1cm;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 13cm;
+    height: 13cm;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 0.5cm;
+}
+
+.form2-title {
+    font-size: 16px;
+    margin: 0.5cm 0cm 0.5cm; 
+}
+
+#email, #password, .input-item {
+    padding: 0.3cm 7cm 0.3cm 0.2cm;
+    font-size: 15px;
+}
+
+.select-item {
+    padding: 0.3cm 9.8cm 0.3cm 0.2cm;
+}
+
+#submit, #order-button {
+    background-color: rgb(255, 255, 255);
+    color: #5c9210;;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+#order-button {
+    background-color: rgb(255, 255, 255);
+    color: #5c9210;;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    padding: 0.5cm;
+}
+
+#order-button:disabled, #order-button:hover:disabled {
+    color: #969696;
+    cursor: not-allowed;
+}
+
+#register {
+    background-color: rgb(255, 255, 255);
+    color: #944317;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+
+/* Delivery Address page */
+
+.da-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5cm;
+}
+
+.tastes-well-test {
+    text-align: center;
+    margin: 1cm 0cm 0cm 0cm;;
+}
+
+.cancel-button {
+    background-color: rgb(255, 255, 255);
+    color: #944317;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+.continue-button {
+    background-color: rgb(255, 255, 255);
+    color: #5c9210;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    margin-left: 1.5cm;;
+    text-decoration: none;
+}
+
+/* Order Page */
+.order-section-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1cm 0cm;
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 3.5cm;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0.5cm 0cm 0cm 0cm;
+}
+
+.ingredients-container {
+    display: flex;
+    margin-left: 0.5cm;
+}
+
+.ingredients-container-item {
+    width: 2.5cm;
+    border: 1px solid rgb(165, 165, 165);
+    text-align: center;
+    margin-left: 0.5cm;
+    padding: 0.2cm 0cm;
+}
+
+.ingredients-title {
+    padding: 0.2cm 0cm;
+}
+
+.price-title {
+    padding: 0.2cm 0cm;
+    margin-left: 0.5cm;
+}
