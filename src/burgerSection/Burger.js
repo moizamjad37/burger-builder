@@ -62,7 +62,7 @@ function Burger() {
                 
                 <div className="ingredients">
                     {lettuce === 0 && bacon === 0 && cheese === 0 && meat === 0  ? (
-                    <h2>No Ingredients Selected</h2>
+                    <h2 className="noIngredients-text">No Ingredients Selected</h2>
                     ) : (
                     <div className="i-sub">
                         <div className="i-i-sub">{lettuces}</div>
